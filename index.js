@@ -1,8 +1,8 @@
+// here the start
 const wrapper = document.querySelector(".wrapper");
 const box = document.querySelectorAll(".box");
 let curnum = 0;
 let curnumforbtn = 0;
-
 /* if you use auto silde feature then uncomment these codes it will
  slide automatically but when you click a btn or swipe pic your mobile then
  it will stop then automation... */
