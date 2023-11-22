@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.wrapper {
+  width: 90%;
+  height: 200px;
+  padding-block: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper1 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.box {
+  display: flex;
+  align-items: center;
+  width: 0px;
+  min-height: 200px;
+  transition: 800ms all ease-in-out;
+}
+.first,
+.second {
+  flex-basis: 50%;
+  min-height: 200px;
+}
+button {
+  width: 6%;
+  min-width: 30px;
+  height: inherit;
+  background-color: rgba(128, 128, 128, 0.4);
+  border: 1px solid #000000;
+  filter: blur(20%);
+}
+.box1 {
+  width: 300px;
+  background-image: url("./src/cai-unsplash.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box2 {
+  background-image: url("./src/pawan-unsplash.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box3 {
+  background-image: url("./src/re-unsplash.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box4 {
+  background-image: url("./src/soren-unsplash.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box5 {
+  background-image: url("./src/stephen-unsplash.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
